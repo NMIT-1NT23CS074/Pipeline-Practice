@@ -22,5 +22,11 @@ pipeline{
                 '''
             }
         }   
+
+        stage("poll scm"){
+            steps{
+                echo "polling scm for every minutes,hrs,days,montths,weekdays"
+            }
+        }
     }
 }
