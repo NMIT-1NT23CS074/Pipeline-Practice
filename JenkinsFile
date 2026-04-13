@@ -8,7 +8,7 @@ pipeline{
                 '''
             }
         }
-        stage("Ram-used")"{
+        stage("Ram-used"){
             steps{
                 sh '''
                 free -h
